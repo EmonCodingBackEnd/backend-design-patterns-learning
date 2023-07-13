@@ -1,5 +1,6 @@
 package com.coding.design.patterns.creational.p04singleton;
 
+// 双重检查锁机制
 public class LazyDoubleCheckSingleton {
     // 设置 volatile 禁止了重排序
     private volatile static LazyDoubleCheckSingleton lazyDoubleCheckSingleton = null;
